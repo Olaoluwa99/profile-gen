@@ -19,7 +19,6 @@ This is a simple Node.js and Express server built for the Backend Wizards Stage 
   * **Node.js** - Runtime environment
   * **Express** - Web server framework
   * **axios** - For making HTTP requests to the external API
-  * **dotenv** - For managing environment variables
   * **cors** - For enabling Cross-Origin Resource Sharing
   * **nodemon** - For automatic server restarts during development
 
@@ -42,14 +41,6 @@ Install all the required packages listed in `package.json`.
 npm install
 ```
 
-### 3\. Set Up Environment Variables
-
-This project requires a `.env` file in the root directory to store your personal information.
-
-1.  Create a file named `.env` in the root of the project.
-2.  Add the following variables to the file:
-
-<!-- end list -->
 
 ```ini
 # .env file
