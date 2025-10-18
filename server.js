@@ -1,13 +1,9 @@
 const express = require('express');
 const axios = require('axios');
 const cors = require('cors');
-require('dotenv').config();
 
 // Initialization
 const app = express();
-
-// Set PORT
-const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors());
@@ -36,9 +32,9 @@ app.get('/me', async (req, res) => {
     const responseData = {
         status: 'success',
         user: {
-            email: process.env.MY_EMAIL,
-            name: process.env.MY_NAME,
-            stack: process.env.MY_STACK
+            email: "olaoluwadaniel99@gmail.com",
+            name: "Olaoluwa Daniel Odewale",
+            stack: "Node.js/Express | Postgres"
         },
         timestamp: timestamp,
         fact: catFact
@@ -49,6 +45,7 @@ app.get('/me', async (req, res) => {
 });
 
 // Start the Server
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
