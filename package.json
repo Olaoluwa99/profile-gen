@@ -2,13 +2,13 @@
   "name": "profile-gen",
   "version": "1.0.0",
   "description": "Stage 0 task for Backend",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Olaoluwa OD",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.12.2",
