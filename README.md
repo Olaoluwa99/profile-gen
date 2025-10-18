@@ -41,19 +41,6 @@ Install all the required packages listed in `package.json`.
 npm install
 ```
 
-
-```ini
-# .env file
-
-# Server port
-PORT=3000
-
-# Your profile information
-MY_NAME="Your Full Name"
-MY_EMAIL="your.email@example.com"
-MY_STACK="Node.js/Express | Postgres"
-```
-
 ## Running the Application 🚀
 
 You can run the server in two modes:
